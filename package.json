@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://harsha218.github.io/Boids-Simulator/",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "parcel-bundler": "^1.12.5"
   }
 }
